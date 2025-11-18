@@ -46,16 +46,20 @@
 # kor = [70, 80, 90, 40, 50]
 # eng = [90, 80, 70, 70, 60]
 
+# kor = [70, 80, 90, 40, 50]
+# eng = [90, 80, 70, 70, 60]
+
 # total_scores = []
 # avg_scores = []
 
-# for k, e in zip(kor, eng):
-#     total = k + e
+# for i in range(len(kor)):
+#     total = kor[i] + eng[i]
 #     total_scores.append(total)
 #     avg_scores.append(total / 2)
 
-# print(f"total_scores = {total_scores}")
-# print(f"avg_scores = {avg_scores}")
+# print("total_scores =", total_scores)
+# print("avg_scores =", avg_scores)
+
 
 
 # kor 리스트에서 60점 이상인 점수만 누적 합계를 계산하고 출력하시오.
@@ -71,7 +75,7 @@ sum4 = 0
 
 for score in kor :
     if score >= 60:
-        sum4 = score + sum4
+       sum4 = score + sum4
 누적합 = sum4
 
 print(f"누적합: {누적합}")
