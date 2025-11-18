@@ -3,7 +3,7 @@
 #first = 5   # 오타 frist -> first
 
 #while first > 0:
-#    print(f"while 값 :, {first}")  - , 추가
+#    print(f"while 값 : {first}") 
 #    first = first - 1
 
 
@@ -11,7 +11,7 @@
 #first = 5
 
 #while first > 0:
-#    print(f"while 값 :, {first}")  # 들여쓰기 문제, print 앞에서 Tab
+#    print(f"while 값 : {first}")  # 들여쓰기 문제, print 앞에서 Tab
 #    first = first - 1
 
 
