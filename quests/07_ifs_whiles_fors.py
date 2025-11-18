@@ -79,5 +79,3 @@ for score in kor :
 누적합 = sum4
 
 print(f"누적합: {누적합}")
-
-
