@@ -64,11 +64,13 @@
 
 # sum_total = 0
 
-# for i in range(0, 10):    # 오류 발생 : kor와 eng 리스트 길이가 5이므로 range(5)를 쓰거나 range(0,5)를 쓴다
+# for i in range(0, 10):    # 오류 발생 
 #     sum_total = sum_total + kor[i] + eng[i]
 
 # 아래 코드에서 IndexError가 발생한다.
 #  오류 원인을 설명하고 올바른 코드를 작성하시오.
+
+#  kor와 eng 리스트 길이가 5이므로 range(5)를 쓰거나 range(0,5)를 쓴다
 
 kor = [70, 80, 90, 40, 50]
 eng = [90, 80, 70, 70, 60]
