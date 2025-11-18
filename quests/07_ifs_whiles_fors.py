@@ -70,8 +70,8 @@ kor = [70, 80, 90, 40, 50]
 sum4 = 0
 
 for score in kor :
-    score >= 60
-    sum4 = score + sum4
+    if score >= 60:
+        sum4 = score + sum4
 누적합 = sum4
 
 print(f"누적합: {누적합}")
