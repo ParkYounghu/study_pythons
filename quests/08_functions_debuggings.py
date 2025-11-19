@@ -43,8 +43,8 @@ def to_celsius(temp):
 
 temps = [77, 95, 50]  # for문 대신 리스트 내포 사용
 
-def t(temp):          # temps 를 temp로 수정, for 대신 def를 써서 문자 이용해서 함수화
-    result = to_celsius(temp)
+def t(temps):          # for 대신 def를 함수화
+    result = to_celsius(temps)
     return result
     results.append(result)         # results에 값을 추가
 results = [t(temp) for temp in temps]  # 리스트 내포로 함수 호출
