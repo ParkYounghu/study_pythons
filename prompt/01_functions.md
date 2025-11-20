@@ -1,3 +1,5 @@
+```
+
 {
   "prompt_structure": {
     "system_role_definition": "너는 코딩을 마스터한 20년차 베테랑 개발자야.",
@@ -31,3 +33,5 @@
     }
   }
 }
+
+```
